@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "hollow-ui"
+    }
+  },
+  "defaultProject": "hollow-ui",
+  "cli": {
+    "analytics": "c7a8050b-78dd-4d32-88a4-7ca4a72316d1"
+  }
 }

@@ -1,1 +1,17 @@
-<p>modal works!</p>
+<div class="modal-background">
+  <div class="modal">
+    <div class="modal-header">
+      <h2>confirmation</h2>
+      <button>
+        <img class="icon-closer" src="assets/icons/closer.svg" alt="Close modal">
+      </button>
+    </div>
+    <div class="modal-body">
+      <ng-content></ng-content>
+    </div>
+    <div class="modal-footer">
+      <button class="btn-ghost">Cancel</button>
+      <button class="btn-ghost">Ok</button>
+    </div>
+  </div>
+</div>

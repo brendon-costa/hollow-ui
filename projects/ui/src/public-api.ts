@@ -2,6 +2,7 @@
  * Public API Surface of ui
  */
 
-export * from './lib/ui.service';
-export * from './lib/ui.component';
-export * from './lib/ui.module';
+// MODAL
+export * from './lib/layout/modal/modal.component';
+export * from './lib/layout/modal/modal.module';
+
